@@ -79,7 +79,7 @@ Header header
 interface_name = ['wheel_left', 'wheel_right', 'joint_1', 'joint_2', …, 'joint_N', 'gripper_1']
 InterfaceValue = [wheel_left_iv, wheel_right_iv, joint_1_iv, joint_2_iv, …, joint_n_iv, gripper_1_iv]
 ```
-where the `InterfaceValue` messages can be composed individually per `InterfaceName`.
+where the `InterfaceValue` messages can be composed individually per `interface_name`.
 The name is similar to the already existing joint state message coming from the URDF.
 
 The `InterfaceValue` for the left wheel `wheel_left_iv` could be composed as such, reporting only its velocity:
